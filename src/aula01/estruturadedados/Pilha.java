@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class Pilha <T>{
     
     private int topo;
-    private T[] pilha;
+    private final T[] pilha;
     
     
     //Construtor

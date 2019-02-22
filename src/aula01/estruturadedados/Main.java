@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package aula01.estruturadedados;
 
 /**
@@ -13,13 +9,14 @@ public class Main {
     
     public static void main(String[] args) {
         
-        Pilha<String> p = new Pilha<String>();
+        Pilha<Integer> p = new Pilha<Integer>();
         
-        p.inserir("Rafael");
-        p.inserir("Unifacs");
-        p.inserir("Teste");
+        Integer str=null;
         
-        String str = null;
+        for (Integer i = 0; i < 10; i++) {
+            
+            p.inserir(i);
+        }
         
         
         
@@ -28,7 +25,6 @@ public class Main {
             System.out.println(str);
             
         }while (str != null);
-        
         
         
         
